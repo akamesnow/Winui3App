@@ -8,7 +8,7 @@
         <beforeApplicationStartup />
       </update>
     </subscription>
-    <deploymentProvider codebase="https://github.com/akamesnow/Winui3App/tree/main/Published/Application1.application" />
+    <deploymentProvider codebase="https://github.com/akamesnow/Winui3App/tree/968a20f0a85228e9fdcb5a762e73cc094f072cf9/Published/Application1.application" />
   </deployment>
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
     <framework targetVersion="4.5" profile="Full" supportedRuntime="4.0.30319" />
@@ -21,7 +21,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>LOIJus+LDfD5iqAKY5NkL6aXKenOOzqQTALTmaBxnA0=</dsig:DigestValue>
+        <dsig:DigestValue>UP0lm0awpPbDBwkWrqoamrgdUN9i7jFDQcJVK92zXn8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

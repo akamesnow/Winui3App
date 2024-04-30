@@ -72,22 +72,22 @@
       <dsig:DigestValue>v/bKb8C7V7VHUXSP4/lYpPY5GbhLEdqModiyCIdLSL4=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Application1.dll" size="307200">
+  <file name="Application1.dll" size="167936">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>HIdb3Lnic8zoZCvY9JEKuo3Z2u3D5JaLXYHa+qB5DUw=</dsig:DigestValue>
+      <dsig:DigestValue>bdF1ux8VAASrzDVeBqEN4l8GpW+SoudHprPkoMj/9JI=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Application1.exe" size="364032">
+  <file name="Application1.exe" size="224768">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>BoYZxtXWdSwdo2O72y24wBh+Pi75zKije0HYfOeF6Do=</dsig:DigestValue>
+      <dsig:DigestValue>IwN5scdhVwFwg46M2nM2qfkQzPfmgN2cJVVsESGzAss=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Application1.runtimeconfig.json" size="340">
