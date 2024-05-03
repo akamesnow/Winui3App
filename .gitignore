@@ -396,4 +396,4 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
-!bin
+!ConsoleApp1/bin
