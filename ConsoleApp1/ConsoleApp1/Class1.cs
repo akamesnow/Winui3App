@@ -11,7 +11,7 @@ namespace ConsoleApp1
     {
         public async Task CheckAndDownloadFiles()
         {
-            string githubUrl = "https://raw.githubusercontent.com/username/repository/branch/file.exe"; // Remplacez les valeurs par les vôtres
+            string githubUrl = "https://raw.githubusercontent.com/akamesnow/Winui3App/main/ConsoleApp1/ConsoleApp1/Program.cs"; // Remplacez les valeurs par les vôtres
             Version requiredVersion = new Version(1, 2, 3, 0); // Version requise
 
             using (HttpClient client = new HttpClient())
@@ -25,7 +25,7 @@ namespace ConsoleApp1
                         byte[] fileBytes = await response.Content.ReadAsByteArrayAsync();
 
                         // Récupération des informations de version du fichier .exe
-                        FileVersionInfo versionInfo = FileVersionInfo.GetVersionInfo("file.exe");
+                        FileVersionInfo versionInfo = FileVersionInfo.GetVersionInfo("ConsoleApp1.exe");
                         Version fileVersion = new Version(versionInfo.FileVersion);
 
                         // Comparaison de la version requise avec la version du fichier .exe
