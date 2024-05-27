@@ -19,8 +19,8 @@ jobs:
 
     - name: Commit and push changes
       run: |
-        git config --global user.name 'github-actions'
-        git config --global user.email 'github-actions@github.com'
+        git config --global user.name 'akamesnow'
+        git config --global user.email 'valentin.folliot.vf@gmail.com'
         git add file_list.txt
         git commit -m "Update file list"
         git push
