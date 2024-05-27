@@ -13,15 +13,22 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
+    - name: Setup MSVC
+      run: |
+        choco install visualstudio2019community --package-parameters "--add Microsoft.VisualStudio.Workload.VCTools --includeRecommended --quiet --wait"
+        choco install visualstudio2019buildtools --package-parameters "--add Microsoft.VisualStudio.Workload.VCTools --includeRecommended --quiet --wait"
+      shell: cmd
+
     - name: Run C++ program
       run: |
-        .\DefineListOfPush.exe
+        D:\Winui3App\Winui3App\.github\workflows/DefineListOfPush.exe
+      shell: cmd
 
     - name: Commit and push changes
       run: |
         git config --global user.name 'akamesnow'
         git config --global user.email 'valentin.folliot.vf@gmail.com'
-        git add file_list.txt
+        git add D:/mon_repertoire/file_list.txt
         git commit -m "Update file list"
         git push
       env:
