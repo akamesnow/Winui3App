@@ -21,7 +21,7 @@ jobs:
 
     - name: Run C++ program
       run: |
-        D:\Winui3App\Winui3App\.github\workflows/DefineListOfPush.exe
+        "D:\Winui3App\Winui3App\.github\workflows/DefineListOfPush.exe"
       shell: cmd
 
     - name: Commit and push changes
