@@ -15,7 +15,7 @@ jobs:
 
     - name: Run C++ program
   	run: |
-    	"D:\chemin\vers\votre\executable\DefineListOfPush.exe"
+    	"D:\Winui3App\Winui3App\.github\workflowsDefineListOfPush.exe"
   	shell: cmd
 
 
