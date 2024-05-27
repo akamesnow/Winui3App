@@ -1,0 +1,28 @@
+name: Update File List
+
+on:
+  push:
+    branches:
+      - main  # Remplacez par la branche que vous utilisez
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Run C++ program
+      run: |
+        .\DefineListOfPush.exe
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+        git add file_list.txt
+        git commit -m "Update file list"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

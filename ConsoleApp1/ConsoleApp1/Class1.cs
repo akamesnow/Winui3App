@@ -11,8 +11,8 @@ namespace ConsoleApp1
     {
         public async Task CheckAndDownloadFiles()
         {
-            string githubUrl = "https://raw.githubusercontent.com/akamesnow/Winui3App/main/ConsoleApp1/ConsoleApp1/Program.cs"; // Remplacez les valeurs par les vôtres
-            Version requiredVersion = new Version(1, 2, 3, 0); // Version requise
+            string githubUrl = "https://github.com/akamesnow/Winui3App/blob/main/ConsoleApp1/ConsoleApp1/bin/Release/net7.0/ConsoleApp1.exe"; // Remplacez les valeurs par les vôtres
+            Version requiredVersion = new Version(1, 0, 0, 0); // Version requise
 
             using (HttpClient client = new HttpClient())
             {
