@@ -13,10 +13,11 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: Run C++ program
-  	run: |
-    	"D:/Winui3App/Winui3App/.github/workflowsDefineListOfPush.exe"
-  	shell: cmd
+
+	- name: Run C++ program
+  run: |
+    "D:/Winui3App/Winui3App/.github/workflowsDefineListOfPush.exe"
+  shell: cmd
 
 
     - name: Commit and push changes
